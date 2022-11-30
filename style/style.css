@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: "Frank Ruhl Libre", Georgia, serif;
+}
+
+main,
+aside {
+  margin-left: 20%;
+  margin-right: 20%;
+  min-width: 200px;
+}
+
+.link {
+  text-color: rgb(16, 225, 225);
+}
+
+img {
+  width: 150px;
+}
+
+nav {
+  border-top: 2px solid orange;
+  background-color: lightyellow;
+  color: darkcyan;
+}
+
+video {
+  width: 500px;
+  max-width: 100%;
+}
+
+.imgcr {
+  margin-top: unset;
+  box-shadow: inset;
+}
+
+main > div > :last-child {
+  border-left: 2px solid orange;
+  padding-left: 30px;
+  text-align: left;
+  color: rgb(233, 121, 9);
+}
+
+aside {
+  text-align: left;
+}
+
+aside > hr {
+  color: aqua;
+}
+
+aside > hr > p {
+  font-weight: 700;
+}
+
+footer {
+  border-top: 2px solid orange;
+  background-color: lightyellow;
+  text-align: left;
+}
